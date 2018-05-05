@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<points>
+	<point id="0">
+		<position x="-0.53" y ="0.07" z="-0.022"></position>
+		<rotation x="0" y="0" z="0"></rotation>
+		<scale x="0.02" y = "0.02" z ="0.02"></scale>
+	</point>
+	<point id="1">
+		<position x="-0.2" y ="0.1" z="-0.226"></position>
+		<rotation x="0" y="0" z="0"></rotation>
+		<scale x="0.02" y = "0.02" z ="0.02"></scale>
+	</point>
+	<point id="2">
+		<position x="0.312" y ="0.273" z="0.175"></position>
+		<rotation x="0" y="0" z="0"></rotation>
+		<scale x="0.02" y = "0.02" z ="0.02"></scale>
+	</point>
+	<point id="3">
+		<position x="-0.48" y ="0.155" z="0.02"></position>
+		<rotation x="0" y="0" z="0"></rotation>
+		<scale x="0.02" y = "0.02" z ="0.02"></scale>
+	</point>
+	<point id="4">
+		<position x="-0.5" y ="0.397" z="0.09"></position>
+		<rotation x="0" y="90" z="45"></rotation>
+		<scale x="0.02" y = "0.02" z ="0.02"></scale>
+	</point>
+</points>
