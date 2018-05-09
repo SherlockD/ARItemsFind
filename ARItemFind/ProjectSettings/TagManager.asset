@@ -6,6 +6,8 @@ TagManager:
   tags:
   - PointTarget
   - ItemSpawned
+  - Level
+  - GroundPlane
   layers:
   - Default
   - TransparentFX

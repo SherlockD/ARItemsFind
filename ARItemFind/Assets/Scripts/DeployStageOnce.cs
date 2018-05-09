@@ -4,8 +4,8 @@ using Vuforia;
 
 public class DeployStageOnce : MonoBehaviour
 {
-
     public GameObject AnchorStage;
+
     private PositionalDeviceTracker _deviceTracker;
     private GameObject _previousAnchor;
 

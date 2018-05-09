@@ -396,6 +396,16 @@
         <para>Android 7.1, "Nougat", API level 25.</para>
       </summary>
     </member>
+    <member name="F:UnityEditor.AndroidSdkVersions.AndroidApiLevel26">
+      <summary>
+        <para>Android 8.0, "Oreo", API level 26.</para>
+      </summary>
+    </member>
+    <member name="F:UnityEditor.AndroidSdkVersions.AndroidApiLevel27">
+      <summary>
+        <para>Android 8.1, "Oreo", API level 27.</para>
+      </summary>
+    </member>
     <member name="F:UnityEditor.AndroidSdkVersions.AndroidApiLevelAuto">
       <summary>
         <para>Sets the target API level automatically, according to the latest installed SDK on your computer.</para>
@@ -2763,14 +2773,14 @@ Transitions with exit times greater than one will be evaluated only once, so the
     </member>
     <member name="M:UnityEditor.AssetDatabase.IsForeignAsset(UnityEngine.Object)">
       <summary>
-        <para>Is asset a foreign asset?</para>
+        <para>Determines whether the Asset is a foreign Asset.</para>
       </summary>
       <param name="obj"></param>
       <param name="instanceID"></param>
     </member>
     <member name="M:UnityEditor.AssetDatabase.IsForeignAsset(System.Int32)">
       <summary>
-        <para>Is asset a foreign asset?</para>
+        <para>Determines whether the Asset is a foreign Asset.</para>
       </summary>
       <param name="obj"></param>
       <param name="instanceID"></param>
@@ -2845,14 +2855,14 @@ Transitions with exit times greater than one will be evaluated only once, so the
     </member>
     <member name="M:UnityEditor.AssetDatabase.IsNativeAsset(UnityEngine.Object)">
       <summary>
-        <para>Is asset a native asset?</para>
+        <para>Determines whether the Asset is a native Asset.</para>
       </summary>
       <param name="obj"></param>
       <param name="instanceID"></param>
     </member>
     <member name="M:UnityEditor.AssetDatabase.IsNativeAsset(System.Int32)">
       <summary>
-        <para>Is asset a native asset?</para>
+        <para>Determines whether the Asset is a native Asset.</para>
       </summary>
       <param name="obj"></param>
       <param name="instanceID"></param>
@@ -3000,13 +3010,13 @@ Transitions with exit times greater than one will be evaluated only once, so the
     </member>
     <member name="M:UnityEditor.AssetDatabase.LoadAllAssetRepresentationsAtPath(System.String)">
       <summary>
-        <para>Returns all asset representations at assetPath.</para>
+        <para>Returns all sub Assets at assetPath.</para>
       </summary>
       <param name="assetPath"></param>
     </member>
     <member name="M:UnityEditor.AssetDatabase.LoadAllAssetsAtPath(System.String)">
       <summary>
-        <para>Returns an array of all asset objects at assetPath.</para>
+        <para>Returns an array of all Assets at assetPath.</para>
       </summary>
       <param name="assetPath">Filesystem path to the asset.</param>
     </member>
@@ -3028,7 +3038,7 @@ Transitions with exit times greater than one will be evaluated only once, so the
     </member>
     <member name="M:UnityEditor.AssetDatabase.MoveAsset(System.String,System.String)">
       <summary>
-        <para>Move an asset file from one folder to another.</para>
+        <para>Move an asset file (or folder) from one folder to another.</para>
       </summary>
       <param name="oldPath">The path where the asset currently resides.</param>
       <param name="newPath">The path which the asset should be moved to.</param>
@@ -25145,16 +25155,16 @@ See Also: PauseState, EditorApplication.playModeStateChanged, EditorApplication.
       <summary>
         <para>Creates a prefab from a game object hierarchy.</para>
       </summary>
-      <param name="path"></param>
-      <param name="go"></param>
+      <param name="path">The path where the prefab is saved.</param>
+      <param name="go">The GameObject that you want to create a prefab from.</param>
       <param name="options"></param>
     </member>
     <member name="M:UnityEditor.PrefabUtility.CreatePrefab(System.String,UnityEngine.GameObject,UnityEditor.ReplacePrefabOptions)">
       <summary>
         <para>Creates a prefab from a game object hierarchy.</para>
       </summary>
-      <param name="path"></param>
-      <param name="go"></param>
+      <param name="path">The path where the prefab is saved.</param>
+      <param name="go">The GameObject that you want to create a prefab from.</param>
       <param name="options"></param>
     </member>
     <member name="M:UnityEditor.PrefabUtility.DisconnectPrefabInstance(UnityEngine.Object)">
@@ -25991,7 +26001,7 @@ See Also:</para>
     </member>
     <member name="T:UnityEditor.SceneManagement.SceneSetup">
       <summary>
-        <para>The setup information for a scene in the SceneManager.</para>
+        <para>The setup information for a scene in the SceneManager. This cannot be used in Play Mode. </para>
       </summary>
     </member>
     <member name="P:UnityEditor.SceneManagement.SceneSetup.isActive">

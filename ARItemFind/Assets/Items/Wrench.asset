@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc18bc4e4d280245b12dba18d600279, type: 3}
+  m_Name: Wrench
+  m_EditorClassIdentifier: 
+  Itemname: Wrench
+  Prefub: {fileID: 1493659699097332, guid: f61ebb30aeeafaf4d907f55a718828e1, type: 2}
+  LocalScale: {x: 0.02, y: 0.02, z: 0.02}
+  Rotation: {x: 0, y: 0, z: 0}

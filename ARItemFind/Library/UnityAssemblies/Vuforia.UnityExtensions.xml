@@ -520,6 +520,12 @@
             Destroys the internal GuideViewGameObject and makes sure that a 3D guideview object is returned to it's previous owner
             </summary>
     </member>
+    <member name="M:Vuforia.GuideViewRenderingBehaviour.DetachEvents">
+      <summary>
+            Deattaches the events from this instance to the guideview object.
+            Call before destroying
+            </summary>
+    </member>
     <member name="M:Vuforia.GuideViewRenderingBehaviour.Initialize(Vuforia.ModelTargetBehaviour)">
       <summary>
             Setup function that creates the necessary GuideView rendering components for the provided ModelTargetBehaviour
